@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Default Value Nodes",
+	"Description": "Provides default value nodes for common types in blueprints.",
+	"Category": "Misc",
+	"CreatedBy": "Dream Seed",
+	"CreatedByURL": "https://dreamseed.games/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "mailto:hello@dreamseed.games",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "DefaultValues",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen",
+			"WhitelistPlatforms" :
+			[
+				"Win64",
+				"Win32",
+				"HTML5"
+			]
+		}
+	]
+}
