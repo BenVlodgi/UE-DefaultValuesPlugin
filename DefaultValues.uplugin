@@ -17,13 +17,7 @@
 		{
 			"Name": "DefaultValues",
 			"Type": "Runtime",
-			"LoadingPhase": "PreLoadingScreen",
-			"WhitelistPlatforms" :
-			[
-				"Win64",
-				"Win32",
-				"HTML5"
-			]
+			"LoadingPhase": "PreLoadingScreen"
 		}
 	]
 }
