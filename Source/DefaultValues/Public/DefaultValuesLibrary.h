@@ -30,8 +30,8 @@ class UDefaultValuesLibrary : public UBlueprintFunctionLibrary
 	static int64 DefaultInt64() { return 0; };
 
 	/** Default value: 0 */
-	UFUNCTION(BlueprintPure, Category = "Defaults", meta = (CompactNodeTitle = "Default", Keywords = "floating, single"))
-	static float DefaultFloat() { return 0; };
+	UFUNCTION(BlueprintPure, Category = "Defaults", meta = (CompactNodeTitle = "Default", Keywords = "floating, float, double"))
+	static double DefaultDouble() { return 0; };
 
 	/** Default value: None */
 	UFUNCTION(BlueprintPure, Category = "Defaults", meta = (CompactNodeTitle = "Default", Keywords = "None"))
