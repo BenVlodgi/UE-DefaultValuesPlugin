@@ -1,24 +1,16 @@
 {
 	"FileVersion": 3,
-	"Version": 1,
-	"VersionName": "1.0",
+	"Version": 2,
+	"VersionName": "2.0",
 	"FriendlyName": "Default Value Nodes",
-	"Description": "Provides default value nodes for common types in blueprints.",
+	"Description": "Provides Default Value nodes for use in blueprints.",
 	"Category": "Misc",
 	"CreatedBy": "Dream Seed",
 	"CreatedByURL": "https://dreamseed.games/",
 	"DocsURL": "https://github.com/BenVlodgi/UE-DefaultValuesPlugin/wiki/Default-Values-Plugin",
 	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/6d141347f2cf4eb68c9c47d885bb02cf",
 	"SupportURL": "mailto:hello@dreamseed.games",
-	"CanContainContent": false,
+	"CanContainContent": true,
 	"IsBetaVersion": false,
-	"Installed": false,
-	"Modules": [
-		{
-			"Name": "DefaultValues",
-			"Type": "Runtime",
-			"LoadingPhase": "PreLoadingScreen",
-			"BlacklistPlatforms" : []
-		}
-	]
+	"Installed": false
 }
